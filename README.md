@@ -129,8 +129,32 @@ python sensor_logger.py
 
 Logdatei unter: ~/Desktop/Sensortest/sensor_log.csv
 
+WEBSERVER Config:
+
+1. Flask installieren:
+
+cd ~/Desktop/Sensortest
+source env/bin/activate
+pip install flask
+
+WebserverCode:
+
+----here comes script of webserver_dashboard.py
+
+running:
+
+cd ~/Desktop/Sensortest
+source env/bin/activate
+python web_dashboard.py
+
+see dashboard:
+
+http://localhost:8000/
+
+http://<IP-des-Pi>:8000/
 
 
+have fun ()
 
 
 
